@@ -1,7 +1,5 @@
 package main.java.entity;
 
-import java.util.Date;
-
 
 
 public class Score {

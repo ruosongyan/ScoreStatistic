@@ -7,6 +7,7 @@ import javax.swing.JDialog;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
+import javax.swing.WindowConstants;
 
 public class ModifyDialog extends JDialog{
 	JLabel id,name,course,score,time;
@@ -16,7 +17,7 @@ public class ModifyDialog extends JDialog{
 		super();
 		setLayout(new FlowLayout());
 		setSize(300, 200);
-		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+		setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
 		setTitle("成绩信息");
 		
 		name=new JLabel("姓名");

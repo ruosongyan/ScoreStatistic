@@ -1,12 +1,9 @@
 package main.java.data;
 
 import java.sql.Connection;
-import java.util.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
-import java.util.Calendar;
-
 import main.java.entity.Score;
 
 public class ScoreDao extends BasicDao{

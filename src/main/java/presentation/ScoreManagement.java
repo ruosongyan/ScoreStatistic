@@ -159,7 +159,8 @@ public class ScoreManagement {
         
         //ÉèÖÃÊÂ¼ş
         table.addMouseListener(new MouseAdapter() {
-        	public void mouseClicked(MouseEvent e) {
+        	@Override
+			public void mouseClicked(MouseEvent e) {
         		int row=table.getSelectedRow();
         		nameText.setText(defaultTableModel.getValueAt(row, 1).toString());
         		courseText.setText(defaultTableModel.getValueAt(row, 2).toString());
